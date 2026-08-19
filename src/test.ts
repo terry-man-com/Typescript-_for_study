@@ -30,15 +30,51 @@ export const test = () => {
     //     return reverseArray;
     // }
     // console.log(reverseArray(["a", "b", "c"], true));
-    interface UserProps {
-        userID: Number;
-        name: String;
-        age: Number;
-        email: String;
-        isActive: Boolean;
-    }
+//     interface UserProps {
+//         userID: Number;
+//         name: String;
+//         age: Number;
+//         email: String;
+//         isActive: Boolean;
+//     }
 
-    interface AdminUser extends UserProps {
-        roll:string;
-    }
+//     interface AdminUser extends UserProps {
+//         roll:string;
+//     }
+
+// class User {
+//     userId:number;
+//     name: string;
+//     age: number;
+//     email: string;
+//     isActive: boolean;
+
+//     constructor(userId: number, name: string, age: number, email: string, isActive: boolean) {
+//         this.userId = userId;
+//         this.name = name;
+//         this.age = age;
+//         this.email = email;
+//         this.isActive = isActive;
+//     }
+
+//     public getProfile(): string{
+//         return `Name: ${this.name}, Age: ${this.age}`;
+//     }
+// }
+
+// const user = new User(1, 'Mike', 35, 'mike@gmail.com', true);
+// user.getProfile();
+// public, private, protected
+
+// const foo = (arg:string):string => {
+//     return arg;
+// }
+
+// // ジェネリクス
+// const foo2 = <T>(arg: T): T => {
+//     return arg;
+// }
+
+// foo2<string>('Hello World');
+
 }
